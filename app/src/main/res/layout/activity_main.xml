@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tinapa"
+            android:layout_margin="@dimen/textview_margin">
+            <TextView
+                android:id="@+id/tinapa"
+                style="@style/Legendary"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/tinapa"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/obudu"
+            android:layout_margin="@dimen/textview_margin">
+            <TextView
+                android:id="@+id/obudu"
+                style="@style/Legendary"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/obudu"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/calabar"
+            android:layout_margin="@dimen/textview_margin">
+            <TextView
+                android:id="@+id/calabar"
+                style="@style/Legendary"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/calabar"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/city"
+            android:layout_margin="@dimen/textview_margin">
+            <TextView
+                android:id="@+id/city"
+                style="@style/Legendary"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/city"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

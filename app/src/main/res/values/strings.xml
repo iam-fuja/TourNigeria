@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TourNigeria</string>
+
+    <string name="city">Cities</string>
+    <string name="calabar">Calabar</string>
+    <string name="tinapa">Tinapa</string>
+    <string name="obudu">Obudu</string>
+    <string name="tinapa_ftz">Tinapa Free Trade Zone</string>
+
+
+</resources>
