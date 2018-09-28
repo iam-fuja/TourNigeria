@@ -7,15 +7,19 @@
     <!-- Background color for app -->
     <color name="tan_background">#D3D3D3</color>
 
-    <!-- color for phrases -->
+    <!-- color for calabar -->
     <color name="calabar">#16AFCA</color>
 
-    <!-- color for numbers -->
+    <!-- color for tinapa -->
     <color name="tinapa">#FD8E09</color>
 
-    <!-- color for family -->
+    <!-- color for obudu -->
     <color name="obudu">#379237</color>
-    <!-- color for colors -->
+
+    <!-- color for city -->
     <color name="city">#8800A0</color>
+
+    <!-- Background color for tab -->
+    <color name="tab">#A8A19E</color>
 
 </resources>

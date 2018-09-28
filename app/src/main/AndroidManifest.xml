@@ -16,22 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".TinapaActivity"
-            android:label="@string/tinapa"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ObuduActivity"
-            android:label="@string/obudu"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".CalabarActivity"
-            android:label="@string/calabar"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".CityActivity"
-            android:label="@string/city"
-            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
